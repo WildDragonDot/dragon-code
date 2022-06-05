@@ -21,7 +21,7 @@
   },
   "scripts": {
     "start:front": "react-scripts start",
-    "start": "yarn build && yarn server:prod",
+    "start": "npm run build && npm server:prod",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
