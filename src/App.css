@@ -1,0 +1,197 @@
+.homePageWrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.formWrapper {
+  background: #282136;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 90%;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.mainLabel {
+  margin-bottom: 20px;
+  margin-top: 0;
+
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
+
+footer a {
+  color: #4aee88;
+}
+
+.homePageLogo {
+  height: 125px;
+  margin-bottom: 30px;
+}
+
+.logotext {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logotext h1 {
+  font-size: 2.3rem;
+  padding: 1rem;
+}
+
+.inputBox {
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-bottom: 14px;
+  background: #eee;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  font-weight: bold;
+}
+
+.joinBtn {
+  background: #4aed08;
+  width: 100px;
+  margin-left: auto;
+}
+
+.joinBtn:hover {
+  background: #2b824c;
+}
+
+.createInfo {
+  margin: 0 auto;
+  margin-top: 20px;
+
+}
+
+.createNewBtn {
+  color: #4aee88;
+  text-decoration: none;
+  border-bottom: 1px solid #4aee88;
+  transition: all 0.3s ease-in-out;
+}
+
+.createNewBtn:hover,
+footer a:hover {
+  color: #368654;
+  border-color: #368654;
+}
+
+
+/* --------------------------------- Editor --------------------------------- */
+.mainWrap {
+  display: grid;
+  grid-template-columns: 230px 1fr;
+}
+
+.aside {
+  background: #1c1e29;
+  padding: 16px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.asideInner {
+  flex: 1;
+}
+
+.clientsList {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.client {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.userName {
+  margin-top: 10px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #424242;
+  padding-bottom: 10px;
+}
+
+.logo h1 {
+  margin-bottom: 0.5px;
+  margin-top: 0.5px;
+  background: linear-gradient(-45deg, #6355a4, #6355a4, #e89a3e, #e89a3e);
+  background-size: 300%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animated_text 10s ease-in-out infinite;
+  -moz-animation: animated_text 10s ease-in-out infinite;
+  -webkit-animation: animated_text 10s ease-in-out infinite;
+}
+
+@keyframes animated_text {
+  0% {
+    background-position: 0px 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0px 50%;
+  }
+}
+
+.logoImage {
+  padding: 0 1.5rem;
+  height: 100%;
+  width: auto;
+}
+
+.leaveBtn {
+  margin-top: 20px;
+  background: #4aee88;
+  width: 100%;
+  margin-left: auto;
+  transition: all 0.3s ease-in-out;
+}
+
+.leaveBtn:hover {
+  background: #2b824c;
+}
+
+.CodeMirror {
+  min-height: calc(100vh - 20px);
+  font-size: 20px;
+  line-height: 1.6;
+  padding-top: 20px;
+}
